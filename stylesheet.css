@@ -1,0 +1,112 @@
+body { /* bodyen har et billede som baggrund */
+    background-image: url(backdrop.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+    
+}
+
+
+#pagewrap { /* dette er den hvide baggrund, som indrammer teksten */
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    background-color: white;
+    padding: 1%;
+}
+
+header { /* dette fungerer som baggrunden for menuen */
+    background-color: #191919;
+    margin: 0px; 
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 3.5em;
+    color: #191919;
+    letter-spacing: 0.1em;
+    margin-right: 50%;
+    float: center;
+}
+
+h2 {
+    
+    font-family: 'Roboto', black;
+    
+}
+
+h3 {
+    
+    font-family: 'Roboto', bold;
+}
+
+
+p {
+    
+    font-family: 'Roboto';
+}
+
+ul {
+    
+    color: #1DACBC;
+    font-family: 'Roboto';
+    line-height: 2.5em;
+}
+
+a:link {
+    text-decoration: none;
+    color: #1DACBC;
+    font-weight: 600;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+
+/* så kommer vi til styling af menuen */
+
+nav ul {
+    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    background-color: transparent; 
+    display: block;
+}
+
+nav li {
+    float: left; /* hvert element skal flyde til venstre */
+    text-align: left;
+    
+}
+
+nav li a {
+    display: block; /* elementet skal opføre sig som en blok */
+    width: 8em; /* bredde */
+    color: #ffffff;
+    padding: 0.5em 0.1em; /* forskellig padding på vandrette og lodrette flader */
+    text-decoration: none; /* væk med understregning */
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+nav li a:hover { /* og lidt anderledes styling når man hover */
+    color: #1DACBC;
+}
+
+
+/*Hvis skærmern er større end 400px */
+
+@media screen and (min-width: 600px) {
+    
+    h1 {
+        margin-right: 5%;
+    }
+    
+    }
