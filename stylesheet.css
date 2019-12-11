@@ -16,7 +16,7 @@ body { /* bodyen har et billede som baggrund */
     padding: 1%;
 }
 
-header { /* dette fungerer som baggrunden for menuen */
+header { /* headeren fungerer også som baggrunden for menuen */
     background-color: #191919;
     margin: 0px; 
     text-align: center;
@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     font-family: 'Abril Fatface';
     font-size: 3.5em;
-    color: #191919;
+    color: #272727;
     letter-spacing: 0.1em;
     margin-right: 50%;
     float: center;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 
-/* så kommer vi til styling af menuen */
+/* Styling af menuen */
 
 nav ul {
     list-style-type: none; /* vi fjerner symboler for hvert punkt */
@@ -78,28 +78,32 @@ nav ul {
     overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
     background-color: transparent; 
     display: block;
+    width: 100%;
 }
 
 nav li {
     float: left; /* hvert element skal flyde til venstre */
-    text-align: left;
+    text-align: center;
+    width: 100%;
+    width: calc(100% / 7);
     
 }
 
 nav li a {
-    display: block; /* elementet skal opføre sig som en blok */
-    width: 8em; /* bredde */
+    display: block;
+    width: 8em; 
     color: #ffffff;
-    padding: 0.5em 0.1em; /* forskellig padding på vandrette og lodrette flader */
-    text-decoration: none; /* væk med understregning */
+    padding: 0.5em 1em;
+    text-decoration: none;
     font-weight: 600;
     font-family: Roboto;
 }
 
-nav li a:hover { /* og lidt anderledes styling når man hover */
+nav li a:hover {
     color: #1DACBC;
 }
 
+/* Jer slutter styling af menuen */
 
 /*Hvis skærmern er større end 400px */
 
