@@ -1,8 +1,11 @@
+/* Mobile first */
+
 body { /* bodyen har et billede som baggrund */
     background-image: url(backdrop.jpg);
     background-size: cover;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    overflow-x: hidden;
     
 }
 
@@ -14,6 +17,7 @@ body { /* bodyen har et billede som baggrund */
     position: relative;
     background-color: white;
     padding: 1%;
+
 }
 
 header { /* headeren fungerer også som baggrunden for menuen */
@@ -29,7 +33,7 @@ h1 { /* Overskrift */
     font-size: 3.5em;
     color: #272727;
     letter-spacing: 0.1em;
-    margin-right: 50%;
+    margin-right: 40%;
     float: center;
 }
 
@@ -62,8 +66,9 @@ h4 { /* Reflektion overskrift */
 p {
     
     font-family: 'Roboto';
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 40%;
     line-height: 1.5em;
     font-size: 1em;
 }
@@ -92,10 +97,10 @@ a:hover {
     
     background-color: #1DACBC;
     color: white;
-    width: 50%;
+    width: 45%;
     height: auto;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 5%;
     float: center;
     font-style: italic;
     padding: 0.5%;
@@ -119,10 +124,10 @@ a:hover {
     
     background-color: #f6bf4a;
     color: white;
-    width: 70%;
+    width: 50%;
     height: auto;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 5%;
     float: center;
     padding: 0.5%;
     font-family: 'Roboto';
@@ -137,7 +142,9 @@ a:hover {
 
 nav ul {
     list-style-type: none; /* vi fjerner symboler for hvert punkt */
-    margin: 0;
+    margin-left: 35%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     padding: 0;
     overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
     background-color: transparent; 
@@ -147,10 +154,9 @@ nav ul {
 }
 
 nav li {
-    float: left; /* hvert element skal flyde til venstre */
+    float: center; /* hvert element skal flyde til venstre */
     text-align: center;
     width: 100%;
-    width: calc(100% / 7);
     
 }
 
@@ -168,8 +174,6 @@ nav li a:hover {
     color: #1DACBC;
 }
 
-/* Jer slutter styling af menuen */
-
 /* Styling af Til-Top knappen */
 
 #myBtn {
@@ -180,7 +184,7 @@ nav li a:hover {
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: #f6bf4a;
+    background-color: #ffafe0;
     color: white; 
     cursor: pointer; 
     padding: 0px;
@@ -206,5 +210,88 @@ nav li a:hover {
     h1 {
         margin-right: 5%;
     }
+    
+    p {
+    
+    font-family: 'Roboto';
+    margin: 5%;
+    padding-left: 1%;
+    padding-right: 10%;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+    
+    #myBtn {
+        
+         background-color: #e87f48;
+    }
+    
+    
+    .quote { 
+    
+    background-color: #1DACBC;
+    color: white;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-left: 25%;
+    float: center;
+    font-style: italic;
+    padding: 0.5%;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    box-shadow: 5px 10px #1f7079;
+    margin-top: 1%;
+    argin-bottom: 1%;
+    
+}
+
+.author { 
+    
+    font-family: 'Beth Ellen';
+    font-size: 0.8em;
+    text-align: right;
+    
+}
+
+.reflection { 
+    
+    background-color: #f6bf4a;
+    color: white;
+    width: 70%;
+    height: auto;
+    text-align: left;
+    margin-left: 15%;
+    float: center;
+    padding: 0.5%;
+    font-family: 'Roboto';
+    box-shadow: 5px 10px #967632;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+    
+    }
+
+    nav ul {
+    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    background-color: transparent; 
+    display: block;
+    width: 100%;
+        
+}
+
+nav li {
+    float: left; /* hvert element skal flyde til venstre */
+    text-align: center;
+    width: 100%;
+    width: calc(100% / 7);
+    
+}
+    
+    
+    
     
     }
