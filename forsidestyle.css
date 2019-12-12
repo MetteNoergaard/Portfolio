@@ -1,0 +1,319 @@
+/* Forsiden får et seperat stylesheet for at fjerne baggrundsbilledet. Dette er kopieret direkte fra det andet. */
+
+body { /* bodyen har et billede som baggrund */
+    background-color: white;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+
+#pagewrap { /* dette er den hvide baggrund, som indrammer teksten */
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    background-color: white;
+    padding: 1%;
+
+}
+
+header { /* headeren fungerer også som baggrunden for menuen */
+    background-color: #191919;
+    margin: 0px; 
+    text-align: center;
+}
+
+h1 { /* Overskrift */    
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 3.5em;
+    color: #272727;
+    letter-spacing: 0.1em;
+    margin-right: 0%
+    float: center;
+}
+
+h2 { /* Titel */
+    
+    font-family: 'Roboto', black;
+    padding-left: 5%;
+    font-size: 1.5em;
+    
+}
+
+h3 { /* Undertitel */
+    
+    font-family: 'Roboto', bold;
+    padding-left: 5%;
+    font-size: 1.1em;
+}
+
+h4 { /* Reflektion overskrift */
+    
+    font-family: 'Roboto', black;
+    padding-left: 5%;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+}
+
+
+p {
+    
+    font-family: 'Roboto';
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 1em;
+    float: center;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#forsideimg {
+    
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+ul {
+    
+    color: #1DACBC;
+    font-family: 'Roboto';
+    line-height: 2.5em;
+    padding-left: 10%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #1DACBC;
+    font-weight: 600;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+
+.quote { /* citaten får speciel styling med en boks, for at den skiller sig ud */
+    
+    background-color: #1DACBC;
+    color: white;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    margin-left: 5%;
+    float: center;
+    font-style: italic;
+    padding: 0.5%;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    box-shadow: 5px 10px #1f7079;
+    margin-top: 1%;
+    argin-bottom: 1%;
+    
+}
+
+.author { /* forfatteren af citaten skal stå anderledes og får en anden skrifttype */
+    
+    font-family: 'Beth Ellen';
+    font-size: 0.8em;
+    text-align: right;
+    
+}
+
+.reflection { /* styling af relektions delen */
+    
+    background-color: #f6bf4a;
+    color: white;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: 5%;
+    float: center;
+    padding: 0.5%;
+    font-family: 'Roboto';
+    box-shadow: 5px 10px #967632;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+
+/* Styling af menuen */
+
+nav ul {
+    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    margin-left: 35%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0;
+    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    background-color: transparent; 
+    display: block;
+    width: 100%;
+        
+}
+
+nav li {
+    float: center; /* hvert element skal flyde til venstre */
+    text-align: center;
+    width: 100%;
+    
+}
+
+nav li a {
+    display: block;
+    width: 8em; 
+    color: #ffffff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+nav li a:hover {
+    color: #1DACBC;
+}
+
+/* Styling af Til-Top knappen */
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #ffafe0;
+    color: white; 
+    cursor: pointer; 
+    padding: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', bold;
+    width: 50px;
+    height: 40px;
+}
+
+#myBtn:hover {
+  background-color: #1DACBC;
+}
+
+
+/* Slutning af styling af Til-Top knappen */
+
+
+/*Hvis skærmern er større end 700px */
+
+@media screen and (min-width: 1273px) {
+    
+    h1 {
+        margin-right: 5%;
+        margin-top: 12%;
+        float: center;
+    }
+       
+    p {
+    
+    font-family: 'Roboto';
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 1em;
+    float: center;
+    text-align: left;
+    margin-left: 50%;
+    margin-right: 5%;
+}  
+    #myBtn {
+        
+         background-color: #e87f48;
+    }
+    
+    
+    .quote { 
+    
+    background-color: #1DACBC;
+    color: white;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-left: 25%;
+    float: center;
+    font-style: italic;
+    padding: 0.5%;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    box-shadow: 5px 10px #1f7079;
+    margin-top: 1%;
+    argin-bottom: 1%;
+    
+}
+
+.author { 
+    
+    font-family: 'Beth Ellen';
+    font-size: 0.8em;
+    text-align: right;
+    
+}
+
+.reflection { 
+    
+    background-color: #f6bf4a;
+    color: white;
+    width: 70%;
+    height: auto;
+    text-align: left;
+    margin-left: 15%;
+    float: center;
+    padding: 0.5%;
+    font-family: 'Roboto';
+    box-shadow: 5px 10px #967632;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+    
+    }
+
+    nav ul {
+    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    background-color: transparent; 
+    display: block;
+    width: 100%;
+        
+}
+
+nav li {
+    float: left; /* hvert element skal flyde til venstre */
+    text-align: center;
+    width: 100%;
+    width: calc(100% / 7);
+    
+}
+    
+#forsideimg {
+    
+    height: 60em;
+    width: auto;
+    margin: 0%;
+    padding-right: 5%;
+    float: left;
+    position: block;
+}
+    
+    
+    }

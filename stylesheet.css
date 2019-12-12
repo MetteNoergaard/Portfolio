@@ -26,7 +26,6 @@ header { /* headeren fungerer også som baggrunden for menuen */
     text-align: center;
 }
 
-
 h1 { /* Overskrift */    
     text-align: center;
     font-family: 'Abril Fatface';
@@ -71,6 +70,12 @@ p {
     margin-right: 40%;
     line-height: 1.5em;
     font-size: 1em;
+}
+
+#forsideimg {
+    
+    height: 65em;
+    margin-bottom: 0%;
 }
 
 ul {
@@ -203,9 +208,9 @@ nav li a:hover {
 /* Slutning af styling af Til-Top knappen */
 
 
-/*Hvis skærmern er større end 400px */
+/*Hvis skærmern er større end 700px */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     
     h1 {
         margin-right: 5%;
