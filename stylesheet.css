@@ -23,7 +23,7 @@ header { /* headeren fungerer også som baggrunden for menuen */
 }
 
 
-h1 {
+h1 { /* Overskrift */    
     text-align: center;
     font-family: 'Abril Fatface';
     font-size: 3.5em;
@@ -33,17 +33,29 @@ h1 {
     float: center;
 }
 
-h2 {
+h2 { /* Titel */
     
     font-family: 'Roboto', black;
     padding-left: 5%;
+    font-size: 1.5em;
     
 }
 
-h3 {
+h3 { /* Undertitel */
     
     font-family: 'Roboto', bold;
     padding-left: 5%;
+    font-size: 1.1em;
+}
+
+h4 { /* Reflektion overskrift */
+    
+    font-family: 'Roboto', black;
+    padding-left: 5%;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.2em;
+
 }
 
 
@@ -53,6 +65,7 @@ p {
     padding-left: 10%;
     padding-right: 10%;
     line-height: 1.5em;
+    font-size: 1em;
 }
 
 ul {
@@ -75,7 +88,7 @@ a:hover {
 }
 
 
-.quote {
+.quote { /* citaten får speciel styling med en boks, for at den skiller sig ud */
     
     background-color: #1DACBC;
     color: white;
@@ -89,14 +102,33 @@ a:hover {
     font-size: 1.2em;
     font-family: 'Roboto';
     box-shadow: 5px 10px #1f7079;
+    margin-top: 1%;
+    argin-bottom: 1%;
     
 }
 
-.author {
+.author { /* forfatteren af citaten skal stå anderledes og får en anden skrifttype */
     
     font-family: 'Beth Ellen';
     font-size: 0.8em;
     text-align: right;
+    
+}
+
+.reflection { /* styling af relektions delen */
+    
+    background-color: #f6bf4a;
+    color: white;
+    width: 70%;
+    height: auto;
+    text-align: left;
+    margin-left: 15%;
+    float: center;
+    padding: 0.5%;
+    font-family: 'Roboto';
+    box-shadow: 5px 10px #967632;
+    margin-top: 1%;
+    margin-bottom: 1%;
     
 }
 
