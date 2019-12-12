@@ -23,7 +23,7 @@
         </nav>
         </header>
         
-    <! -- Her begynder alt indholdet, som er pakket ind i en pagewrap --> 
+    <!-- Her begynder alt indholdet, som er pakket ind i en pagewrap --> 
     <section id="pagewrap">
         
         <h1>Webudvikling</h1>
@@ -52,8 +52,31 @@
         
         <h3>Undertitel 1</h3>
         
-        <p>En interessant side</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
     </section>
+<!-- Her begynder koden for "Scroll til top"-knappen  -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+        <script>
+    var mybutton = document.getElementById("myBtn");
+
+// Dette definerer hvornår knappen kommer frem. Her er det når der er scrollet 20px ned //
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // Dette fortæller at den skal scrolle op //
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
     </body>
 </html>
