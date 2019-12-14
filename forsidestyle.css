@@ -178,10 +178,6 @@ nav li a:hover {
     color: #ffffff;
 }
 
-nav li a:active {
-    color: #b90000;
-}
-
 .active {
     
     color: #d4a9d4;
@@ -333,24 +329,34 @@ nav li a:active {
     
     }
 
+    nav {
+        text-align: center;
+    }
+    
     nav ul {
-    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    overflow: hidden;
     background-color: transparent; 
     display: block;
     width: 100%;
         
 }
 
-nav li {
-    float: left; /* hvert element skal flyde til venstre */
-    text-align: center;
+    nav li {
+        
+    float: left;
     width: 100%;
     width: calc(100% / 7);
     
 }
+
+    nav li a{
+        
+    display: inline-block;
+        
+    }
     
 #forsideimg {
     

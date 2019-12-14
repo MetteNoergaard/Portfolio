@@ -329,6 +329,7 @@ nav li a:hover {
     }
 
     nav ul {
+        
     list-style-type: none; /* vi fjerner symboler for hvert punkt */
     margin: 0;
     padding: 0;
@@ -339,14 +340,20 @@ nav li a:hover {
         
 }
 
-nav li {
+    nav li {
+        
     float: left; /* hvert element skal flyde til venstre */
     text-align: center;
     width: 100%;
     width: calc(100% / 7);
-    
+      
 }
     
+    nav li a{
+        
+    display: inline-block;
+        
+    }
     
 #footer {
         
