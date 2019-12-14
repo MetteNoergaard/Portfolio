@@ -214,6 +214,51 @@ nav li a:hover {
 /* Slutning af styling af Til-Top knappen */
 
 
+/* Her begynder styling af footeren og indholdet deri */
+
+ footer {
+        
+        margin-top: 20.7%;
+        background-color: #0d0d0d;
+        width: 100%;
+        color: white;
+        height: auto;
+        position: absolute;
+    }
+
+#footer {
+        
+        text-align: center;
+        float: center;
+        margin: 0%;
+        padding: 1%;
+        float: center;
+    }
+
+#mail {
+    
+    height: 4em;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+#github {
+    
+    height: 4em;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+#linkedin {
+    
+    height: 4em;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+/* Slutning af footer */
+
+
 /*Hvis skærmern er større end 700px */
 
 @media screen and (min-width: 800px) {
@@ -303,6 +348,30 @@ nav li {
 }
     
     
+#footer {
+        
+    margin: 0%;  
+    }
     
+#mail {
+    
+    height: 4em;
+    padding: 1%;
+    margin-left: 0%;
+}
+
+#github {
+    
+    height: 4em;
+    padding: 1%;
+    margin-left: 0%;
+}
+
+#linkedin {
+    
+    height: 4em;
+    padding: 1%;
+    margin-left: 0%;
+} 
     
     }
