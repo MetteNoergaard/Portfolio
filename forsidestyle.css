@@ -84,21 +84,16 @@ p {
 
 ul {
     
-    color: #1DACBC;
     font-family: 'Roboto';
     line-height: 2.5em;
     padding-left: 10%;
 }
 
-a:link {
-    text-decoration: none;
-    color: #1DACBC;
-    font-weight: 600;
-}
 
 a:hover {
     
     text-decoration: underline;
+    color: #white;
 }
 
 
@@ -172,7 +167,7 @@ nav li {
 nav li a {
     display: block;
     width: 8em; 
-    color: #ffffff;
+    color: #1DACBC;
     padding: 0.5em 1em;
     text-decoration: none;
     font-weight: 600;
@@ -180,7 +175,16 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #1DACBC;
+    color: #ffffff;
+}
+
+nav li a:active {
+    color: #b90000;
+}
+
+.active {
+    
+    color: #d4a9d4;
 }
 
 /* Styling af Til-Top knappen */
