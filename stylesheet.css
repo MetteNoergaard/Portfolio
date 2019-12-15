@@ -1,5 +1,10 @@
 /* Mobile first */
 
+html {
+  scroll-behavior: smooth;
+    
+}
+
 body { /* bodyen har et billede som baggrund */
     background-image: url(backdrop.jpg);
     background-size: cover;
