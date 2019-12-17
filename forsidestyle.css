@@ -390,9 +390,24 @@ nav li a:hover {
 
 #linkedin {
     
-    height: 4em;
+    height: 3.5em;
     padding: 1%;
-    margin-left: 0%;
+    margin-left: 1%;
 }
+    
+    #mail {
+    
+    height: 3.5em;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+#github {
+    
+    height: 3.5em;
+    padding: 1%;
+    margin-left: 1%;
+}
+    
     
     }

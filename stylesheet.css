@@ -365,25 +365,26 @@ nav li a:hover {
     margin: 0%;  
     }
     
-#mail {
+#linkedin {
     
-    height: 4em;
+    height: 3.5em;
     padding: 1%;
-    margin-left: 0%;
+    margin-left: 1%;
+}
+    
+    #mail {
+    
+    height: 3.5em;
+    padding: 1%;
+    margin-left: 1%;
 }
 
 #github {
     
-    height: 4em;
+    height: 3.5em;
     padding: 1%;
-    margin-left: 0%;
+    margin-left: 1%;
 }
-
-#linkedin {
-    
-    height: 4em;
-    padding: 1%;
-    margin-left: 0%;
-} 
+     
     
     }
