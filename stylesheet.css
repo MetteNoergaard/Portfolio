@@ -18,7 +18,7 @@ body { /* bodyen har et billede som baggrund */
 }
 
 header { /* headeren fungerer også som baggrunden for menuen */
-    background-color: #191919;
+    background-color: #0d0d0d;
     margin: 0px; 
     text-align: center;
 }
@@ -27,7 +27,7 @@ h1 { /* Overskrift */
     text-align: center;
     font-family: 'Abril Fatface';
     font-size: 2.4em;
-    color: #272727;
+    color: #0d0d0d;
     letter-spacing: 0.1em;
     margin: 0%;
     float: center;
@@ -69,8 +69,9 @@ p {
     padding-left: 5%;
     padding-right: 0%;
     margin-right: 5%;
-    line-height: 1.5em;
+    line-height: 0.9em;
     font-size: 1em;
+    line-height: 1.5em;
 }
 
 #forsideimg {
@@ -154,7 +155,7 @@ nav ul {
     margin-bottom: 0%;
     padding: 0;
     overflow: hidden;
-    background-color: #191919;
+    background-color: #0d0d0d;
     display: block;
     width: 100%;
         
@@ -239,21 +240,21 @@ nav li a:hover {
 
 #mail {
     
-    height: 4em;
+    height: 3.3em;
     padding: 2%;
     margin-left: 3%;
 }
 
 #github {
     
-    height: 4em;
+    height: 3.3em;
     padding: 2%;
     margin-left: 3%;
 }
 
 #linkedin {
     
-    height: 4em;
+    height: 3.3em;
     padding: 2%;
     margin-left: 3%;
 }
