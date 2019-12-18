@@ -15,16 +15,6 @@ body { /* bodyen har et billede som baggrund */
 }
 
 
-#pagewrap { /* dette er den hvide baggrund, som indrammer teksten */
-    width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    position: relative;
-    background-color: white;
-    padding: 1%;
-
-}
-
 header { /* headeren fungerer også som baggrunden for menuen */
     background-color: #0d0d0d;
     margin: 0px; 
@@ -43,30 +33,6 @@ h1 { /* Overskrift */
     padding-right: 2%;
     padding-top: 10%;
     padding-bottom: 10%;
-}
-
-h2 { /* Titel */
-    
-    font-family: 'Roboto', black;
-    padding-left: 5%;
-    font-size: 1.5em;
-    
-}
-
-h3 { /* Undertitel */
-    
-    font-family: 'Roboto', bold;
-    padding-left: 5%;
-    font-size: 1.1em;
-}
-
-h4 { /* Reflektion overskrift */
-    
-    font-family: 'Roboto', black;
-    padding-left: 5%;
-    font-size: 1.5em;
-    text-align: center;
-    letter-spacing: 0.2em;
 
 }
 
@@ -104,51 +70,6 @@ a:hover {
     
     text-decoration: underline;
     color: #white;
-}
-
-
-.quote { /* citaten får speciel styling med en boks, for at den skiller sig ud */
-    
-    background-color: #1DACBC;
-    color: white;
-    width: 45%;
-    height: auto;
-    text-align: center;
-    margin-left: 5%;
-    float: center;
-    font-style: italic;
-    padding: 0.5%;
-    font-size: 1.2em;
-    font-family: 'Roboto';
-    box-shadow: 5px 10px #1f7079;
-    margin-top: 1%;
-    argin-bottom: 1%;
-    
-}
-
-.author { /* forfatteren af citaten skal stå anderledes og får en anden skrifttype */
-    
-    font-family: 'Beth Ellen';
-    font-size: 0.8em;
-    text-align: right;
-    
-}
-
-.reflection { /* styling af relektions delen */
-    
-    background-color: #f6bf4a;
-    color: white;
-    width: 50%;
-    height: auto;
-    text-align: left;
-    margin-left: 5%;
-    float: center;
-    padding: 0.5%;
-    font-family: 'Roboto';
-    box-shadow: 5px 10px #967632;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    
 }
 
 
@@ -299,50 +220,6 @@ nav li a:hover {
     }
     
     
-    .quote { 
-    
-    background-color: #1DACBC;
-    color: white;
-    width: 50%;
-    height: auto;
-    text-align: center;
-    margin-left: 25%;
-    float: center;
-    font-style: italic;
-    padding: 0.5%;
-    font-size: 1.2em;
-    font-family: 'Roboto';
-    box-shadow: 5px 10px #1f7079;
-    margin-top: 1%;
-    argin-bottom: 1%;
-    
-}
-
-.author { 
-    
-    font-family: 'Beth Ellen';
-    font-size: 0.8em;
-    text-align: right;
-    
-}
-
-.reflection { 
-    
-    background-color: #f6bf4a;
-    color: white;
-    width: 70%;
-    height: auto;
-    text-align: left;
-    margin-left: 15%;
-    float: center;
-    padding: 0.5%;
-    font-family: 'Roboto';
-    box-shadow: 5px 10px #967632;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    
-    
-    }
 
     nav {
         text-align: center;

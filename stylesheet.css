@@ -102,7 +102,7 @@ a:hover {
 
 .quote { /* citaten får speciel styling med en boks, for at den skiller sig ud */
     
-    background-color: #1DACBC;
+    background-color: #191919;
     color: white;
     width: 70%;
     height: auto;
@@ -113,7 +113,7 @@ a:hover {
     padding: 0.5%;
     font-size: 1.2em;
     font-family: 'Roboto';
-    box-shadow: 5px 10px #1f7079;
+    box-shadow: 5px 10px #363636;
     margin-top: 1%;
     margin-bottom: 5%;
     
@@ -129,7 +129,7 @@ a:hover {
 
 .reflection { /* styling af relektions delen */
     
-    background-color: #f6bf4a;
+    background-color: #1DACBC;
     color: white;
     width: 80%;
     height: auto;
@@ -138,7 +138,7 @@ a:hover {
     float: center;
     padding: 0.5%;
     font-family: 'Roboto';
-    box-shadow: 5px 10px #967632;
+    box-shadow: 5px 10px #1f7079;
     margin-top: 1%;
     margin-bottom: 5%;
     
@@ -198,7 +198,7 @@ nav li a:hover {
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: #ffafe0;
+    background-color: #1DACBC;
     color: white; 
     cursor: pointer; 
     padding: 0px;
@@ -210,7 +210,7 @@ nav li a:hover {
 }
 
 #myBtn:hover {
-  background-color: #1DACBC;
+  background-color: #606060;
 }
 
 
@@ -290,15 +290,11 @@ nav li a:hover {
     font-size: 1em;
 }
     
-    #myBtn {
-        
-         background-color: #e87f48;
-    }
     
     
     .quote { 
     
-    background-color: #1DACBC;
+    background-color: #191919;
     color: white;
     width: 50%;
     height: auto;
@@ -309,7 +305,7 @@ nav li a:hover {
     padding: 0.5%;
     font-size: 1.2em;
     font-family: 'Roboto';
-    box-shadow: 5px 10px #1f7079;
+    box-shadow: 5px 10px #363636;
     margin-top: 1%;
     argin-bottom: 1%;
     
@@ -325,7 +321,7 @@ nav li a:hover {
 
 .reflection { 
     
-    background-color: #f6bf4a;
+    background-color: #1DACBC;
     color: white;
     width: 75%;
     height: auto;
@@ -334,7 +330,7 @@ nav li a:hover {
     float: center;
     padding: 0.5%;
     font-family: 'Roboto';
-    box-shadow: 5px 10px #967632;
+    box-shadow: 5px 10px #1f7079;
     margin-top: 1%;
     margin-bottom: 1%;
     
