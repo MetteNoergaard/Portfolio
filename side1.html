@@ -30,52 +30,306 @@
         
         <section><h2>Introduktion</h2>
         
-        <p>En tekst om hvad siden handler om
+        <p>Som multimediedesigner er det vigtigt at beskæftige sig med webudvikling. Hvordan laver man et website? Hvad er god webudvikling? Hvordan blev websites overhovedet til? Disse emner bliver udforsket på denne side om den mere hands-on proces af webudvikling.
             <ul class="anchor"> <!-- Her er anchor-links som hopper ned til emner -->
-                <li><a href="#noget1">Kode</a></li>
+                <li><a href="#kode">Kode</a></li>
                 
                     <ul>
-                <li><a href="#andet">HTML</a></li>
-                <li><a href="andet2">CSS</a></li>
-                <li><a href="andet2">Grid</a></li>
-                <li><a href="andet2">SEO</a></li>        
+                <li><a href="#HTML">HTML</a></li>
+                <li><a href="#CSS">CSS</a></li>
+                <li><a href="#Grid">Grid</a></li>        
                     </ul>
                 
-                <li><a href="#noget2">Responsive design</a></li>
-                <li><a href="#noget3">Internettets historie</a></li>
-                <li><a href="#noget3">Server</a></li>
-                <li><a href="#noget3">Versionsstyring</a></li>
-                <li><a href="#noget3">Kilder</a></li>
-                <li><a href="#noget3">Reflektion</a></li>
+                <li><a href="#Responsive">Responsive design</a></li>
+                <li><a href="#Serverside">Server-side Scripting</a></li>
+                
+                        <ul>
+                    <li><a href="#PHP">PHP</a></li>
+                    <li><a href="#Include">Include</a></li>        
+                        </ul>
+
+                <li><a href="#Bootstrap">Bootstrap</a></li>
+                 <li><a href="#SEO">SEO</a></li>
+                 <li><a href="#Server">Server</a></li>
+                <li><a href="#Versionsstyring">Versionsstyring</a></li>
+                <li><a href="#Internettet">Internettets historie</a></li>
+                <li><a href="#Kilder">Kilder</a></li>
+                <li><a href="#Reflektion">Reflektion</a></li>
             </ul>
         </p></section>
-       
-        <section> 
-            
-            <h2>Titel 1</h2>
-            <h3>Undertitel 1</h3>
+      
+<!-- Her begynder tekten -->        
+    <section> 
+        <h2><a id="kode">Kode</a></h2>
+            <p>Et af de mest væsentlige dele af webudvikling er kode. Det er her websitet bliver levende.</p>
+    </section>
+    
+<!-- HTML -->        
+    <section>         
+        <h3><a id="HTML">HTML</a></h3>
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><i>HyperText Markup Language</i> (bedre kendt som HTML) er det kodesprog, som benyttes under udviklingen af en hjemmeside. HTML er et stort sprog og indeholder mange tags, som alle har hver deres funktion og formål for websitet. Der findes tags til tekst, billeder, video, links og meget mere. </p>
             
+    <h3>Hvordan skriver man HTML?</h3>
+            <p>HTML er skrives ved hjælp af en række <strong>elementer</strong>. Disse elementer er opbygget af <strong>tags</strong> som bestemmer alt fra tekst til billeder. Tags er opbygget af <strong>attributter</strong> og <strong>værdier</strong> - de skaber en formatering af tagget eller en egenskab. Til slut indeholder elementer også det indhold som så faktisk bliver påvirket.
+            <br>HTML elementer er derfor en sandwich af kode, som billedet under også illustrerer. Når man har skrevet en række kode, skal filen gemmes med .html.
+</p>
+    
+            <img src="htmlanatomy.png" class="img" width="70%">
+            
+    </section>
+        
+<!-- CSS -->
+        <section>
+    <h2><a id="CSS">CSS</a></h2>
+        <p>CSS står for <i>Cascading Style Sheets</i> og er det kodesprog som definerer udseendet for HTML-koden. HTML kan styles en anelse i sig selv, men CSS er langt mere udbredt. CSS har gjort det muligt at adskille struktur og udseendet i hver deres dokumenter. Det er brugbart for overskuelighedens skyld og kaldes <strong>External CSS</strong>, selvom det stadig er muligt at samle HTML og CSS i samme dokument med <strong>Internal og Inline CSS</strong>.
+        <br>Et <strong>stylesheet</strong> er derved en samling af styles, eller <strong>rules</strong>, som bestemmer udseendet for elementer refereret fra HTML.</p>
+        
+        <img src="csslogo.png" class="img" height="400em;">
+        
+    <h3>Hvordan skriver man CSS?</h3>
+        <p>For at skrive CSS, må man starte med en selector, som fortæller hvad der skal laves rules (regler) om. Her er de primære selectors:</p>
+           <p><strong>Element</strong>- bestemmer alle elementer, såsom p, h1, body. Det kunne fx være h1, hvor der så ville dannes et samlet set rules for alle h1erne, så de ville blive ens.
+            <br><br><strong>#id</strong> - Bruges når det er et speciﬁkt element man vil style. Fx #underskrift, for kun at style det unikke element fremfor andre.
+            <br><br><strong>.class</strong> - Bestemmer rules for elementer med class. Det kunne eksempel være .quote, hvis man ønsker at have flere citater med ens udseende.
+            <br><br><strong>Pseudo selektorer</strong> - Bestemmer noget inden for en bestemt hændelse i et element eller lign. Fx a:hover, som angiver hvad der skal se når en cursor går over et link.</p>           
+        
+            <p>Derefter skal man vælge en <strong>deklaration</strong>, som specificerer hvilken rule der skal laves. Deklarationen startes med en krølle { og sluttes med den tilsvarende slut-krølle }. En deklaration består af egenskaber og værdier adskilt af et kolon, hvor egenskaben afsluttes med et semikolon. Når et stylesheet skal gemmes, skal det gemmes som en css-fil ved at skrive .css. Et eksempel på en CSS-sætning ses herunder:</p>
+        
+         <img src="cssanatomy.gif" class="img" width="70%">
+        </section>
+
+<!-- Kaskaderegler -->
+            
+    <section>
+        <h3>Kaskaderegler</h3>
+        <p>Hvad nu hvis reglerne overlapper? Hvis flere CSS-regler forsøger at bestemme over det samme element, er det nødt til at vælge én bestemt regel at følge. Der findes nemlig et sæt regler, som definerer ranken af, hvornår hvilken regel skal bruges:</p>
+            
+            <p><strong>Specificity</strong>- Jo mere specifik jo bedre. Her gælder #id især. 
+            <br><br><strong>Source order</strong> - Her gælder de først skrevne regler over de sidst skrevne, men Speciﬁcity har stadig højere rank.
+            <br><br><strong>!important</strong> - Dette ignorer alle regler.</p>  
+        
+    </section>  
+
+<!-- Box model -->
+    <section>      
+    <h3>Box model</h3>
+        <p>I virkeligheden er alle HTML elementer omringet af en box, når man vil ændre dem med CSS. Boxen ses herunder:</p>
+            
+          <img src="boxmodel.gif" class="img" width="70%">
+        
+        <p>Denne box består egenskaber kaldet margin, border, padding og content. De betyder:</p>
+            
+            <p><br><strong>Margin</strong> - margen, afstand mellem ramme og tilstødende elementer.
+            <br><br><strong>Border</strong> - en ramme, som man selv kan vælge om, skal være synlig eller ej.
+            <br><br><strong>Padding</strong> - afstand mellem indhold og ramme.   
+            <br><br><strong>Content</strong> - indholdet, såsom tekst eller billeder.</p>
+    </section>   
+   
+<!-- Kodeskik -->    
+        
+    <section>     
+    <h3>Kodeskik</h3>
+        <p>Hvis ikke man vil blive frustreret over sin egen kode (eller andres kode) bør man tage kodeskik til sig. Kodeskik handler om at holde overblik og orden i HTML- og CSS-koder for sit egen synspunkt, men også for andres. Den overskuelig kode skabes især ved at lave indryk med tab-knappen på tastaturet, så der kommer luft omkring de mange forskellige koder. Det gør det lettere at skabe sig et hurtigt overblik.
+        <br>Dertil kan man benytte sig at kommentarer, for forståelses skyld. Det kan eksempelvis bruges til at forklare ”Her starter koden af menuen” eller ”Denne paragraph handler om …”. Kommentarer i HTML skrives med &lt;! -- og sluttes med --> og i CSS med /* og sluttes med */. Disse kommentarer vil kun være synlige i koden og ikke på selve hjemmesiden.</p>
+        
+    </section>
+        
+<!-- Grid -->       
+        <section>
+    <h2><a id="Grid">Grid</a></h2>
+        <p>Grid er de nyeste specifikation i CSS. I mange år har man måtte bruge float og flexbox for at manøvrere sine elementer rundt, men nu er det blevet meget lettere. Med grid kan man stille sine elementer op i et gitter (grid-area) hvor det er rækker og kolonner som gælder.</p>
+            
+        <h3>Grid step by step</h3>
+        <p><b>Step 1:</b> Named areas - Elementer kan navngives med “grid-area”. Bør være sigende navne, så man ikke selv bliver forvirret.</p>
+        
+            <img src="stepone.jpg" class="img" height="70%">
+        
+        <p><b>Step 2:</b> Et grid oprettes ved at definere en container-element som “grid”, men det påvirker ikke layoutet endnu. </p>
+        
+        
+            <img src="steptwo.jpg" class="img" height="70%">
+            
+            
+        <p><b>Step 3:</b> Man angiver kolonner med “gridtemplate-columns” og bruger enheden “fr” (fractions). Hvis antallet af elementer ikke går op, startes en ny række automatisk. </p>
+        
+        
+            <img src="stepthree.png" class="img" height="70%">
+            
+        
+         <p><b>Step 4:</b> Man angiver højder med “grid-template-rows” </p>
+        
+        
+            <img src="stepfour.png" class="img" height="70%">
+           
+        
+         <p><b>Step 5:</b> I grid-containeren tilføjes “grid-template-areas”. Her indsættes navnene på vores grid-areas. Der angives en række per linje og hver linje angives et element pr. kolonne. Hvis et element spænder over flere kolonner, skal det gentages. Man kan også vælge at lade et felt stå tomt – enten med et punktum eller ved at skrive ”grid-gap”. </p>
+        
+        
+            <img src="stepfive.png" class="img" height="70%">
+        
+</section>     
+        
+        
+<!-- Responsive Design -->     
+    <section>
+        <section>
+        <h2><a id="Responsive">Responsive Design</a></h2>
+            <p>De digitale medier er efterhånden blevet så inkorporeret i vores hverdag, at det ikke længere er nok ”blot” at have et webdesign egnet til desktop. I dag går alle rundt med mobiler og tablet ved hånden, hvor webdesignet til desktop ikke passer ind i disse mindre skærmstørrelser. Derfor er det nu en væsentlig del af webudviklingen, at sørge for et responsive design så brugerne får de mest optimale og brugervenlige oplevelser, uanset hvilken enhed de har. Derfor findes der nu fire overordnede tilgange til et webdesign:
+    <br>
+      <br><strong>Static</strong> - Statisk, layoutet er baseret på faste mål og bliver ikke ændret i de forskellige skærmstørrelser. Indhold ender ofte med at blive skåret af, så det ses som en stor fy-fy for brugervenligheden.
+            
+        <img src="static.png" class="img" width="80%">
+            
+        <br><strong>Fluid</strong> - Flydende, indholdet tilpasser sig bredden hvis elementer er angivet i procent. Indholdet vil ofte blive smalt og presset sammen, så det er derfor ikke særligt æstetisk-pleasing.
+        
+        <img src="liquid.png" class="img" width="80%">
+            
+        <br><strong>Adaptive</strong> - Adaptiv, meget som navnet siger adapterer den sig til et allerede eksisterende desktopdesign, dermed mobile last. Derfor en mellemting mellem statisk og responsive layout. Styres af @mediaqueries.
+        
+        <img src="adaptive.png" class="img" width="80%">
+        
+        <br><strong>Responsive</strong> - Responsivt design, det mest optimale layout at benytte hvis man starter fra bunden af. Der burde man tænkte i mobile first, da det er lettest at designe noget til en lille skærm og derefter gøre det større, i modsætning til det modsatte scenarie, som er langt mere besværligt. Styres også af @mediaqueries.
+        
+        <img src="responsive.png" class="img" width="80%"></p>
+        </section>
+        
+        <section>
+        <h2><a id="Serverside">Server-side Scripting</a></h2>
+        <p>Server-side er de programmer der afvikles på serveren, som danner websidens server. Afvikles de hos klienten er det i stedet client-side.</p>
+        
+        <h3><a id="PHP">PHP</a></h3>
+            <p><i>”PHP Hypertext Preprocessor”</i> er blot et af de betydninger PHP har. PHP i sig selv er et server-side programmeringssprog som bruges til at lave dynamiske websites. Sproget blev oprindeligt skrevet af danskeren Rasmus Lerdorf i 1995 og låner fra Pearl, Java og C.
+        <br>
+        <br>PHP kan en lang række ting, som bl.a. at se aktuel information, fx tidspunkt, og er i stand til at indsætte stumper af kode, kaldet <strong>include</strong>, som vil være fokusområdet her. PHP skal embeddes i en almindelig HTML-fil og derefter omdøbes til .php, så serveren ved at den skal behandles inden den kommer videre til browseren.</p>
+    
+        <h3><a id="Include"></a>Include</h3>
+            <p>Include er en feature som gør det muligt at indsætte små dele af kode, ind i en anden kode. Dette kan bl.a. være for overskueligheden skyld – hvis man fx har en website med 20 sider, skulle man med HTML ind og rette enhver menu på de 20 sider, hvor man med include derimod kan ”fjerne” bidden med menuen og sætte den ind i sit eget dokument og derved include det dokument, i alle de originale 20 sider. Så hvis man vil have 21 sider, skal man blot tilføje den på det ene dokument med menuerne. Dette gøres ved i en .php fil, hvor der i dokumentet indsættes et &lt;?PHP tag, som slutter med ?>. Dette sætter serveren sammen inden det når browseren.</p>  
+            
+        </section>
+    </section>
+        
+ <!--Bootstrap -->       
+    <section>
+        <h2><a id="Bootstrap"></a>Boostrap</h2>
+            <p>Bootstrap er et open-source platform for programmering og kode af web med HTML, CSS og JavaScript. På Bootstrap kan man få templates af kode til fx knapper, forms, typografi, navigation mm. Bootstrap er mobile-first og kan bruges til at skabe en website for bunden, eller optimere en eksisterende hjemmeside. </p>
+        
+    </section>
+        
+        
+<!-- SEO -->        
+    <section>
+        <section>
+        <h2><a id="SEO"></a>SEO</h2>
+            <p>SEO betyder Search Engine Optimization og betegner emnet søgemaskineoptimering. Det er en metode webudviklere benytter for at komme øverst op i de millioner af resultater på søgemaskiner som Google. Det handler altså om at optimere hjemmesiden og indholdet, for at opnå de bedste resultater og fleste klik på sin hjemmeside.</p>
+        
+        <h3>SEO-pyramiden</h3>
+            <p>For netop at opnå denne SEO-optimering er der 4 emner, som bør indgå i strategien. De fire emner er teknik, søgeadfærd, indhold og links, som også ses på pyramiden illustreret her:</p>
+        
+             <img src="seopyramiden.png" class="img" width="80%">
+            
+            <p>
+            <strong>Teknik</strong> - Handler om at få maskinen til at forstå din kode eksempelvis med semantiske tags (Læs mere om semantiske tags længere nede)
+            <br><br><strong>Søgeadfærd</strong> - Kend målgruppen og de bedste keywords
+            <br><br><strong>Indhold</strong> - Siger næsten sig selv, det handler om selve teksten, billederne mm. På siden.
+            <br><br><strong>Links</strong> - Handler om popularitet, hvor andre sider linker til din.</p>
+            
+        <h3>Semantiske tags</h3>
+            <p>Semantiske tags er tags som fortæller noget om selve betydningen og indholdet bag tagget, så det kan forståes både af maskine og mennesker. Når Google skal undersøge en hjemmeside, bliver det nemlig ikke gjort af et menneske som kan læse og fortolke, men en maskine. Hvis man ikke bruger semantiske tags, kan en maskine ikke indse hvilket indhold der lægger bag tagget.
+            <br><br>Eksempler på ikke-semantiske elementer:
+        <br><strong>div</strong> &amp; <strong>span</strong> - Fortæller intet om dets indhold.
+ 
+            <br><br>Eksempler på semantiske elementer:
+        <br><strong>section</strong> &amp; <strong>h1</strong> - Definerer klart indholdet.</p>
+        
+        </section>
+        
+<!-- Server -->
+        <section>
+        <h2><a id="Server">Server</a></h2>
+            <p>Begrebet server indebærer både <strong>hardware</strong> med en særlig rolle, og <strong>software</strong> med en særlig rolle.
+            <br>En server bruges ved hjælp af en <strong>klient</strong>, som kobler sig til serveren, og kommunikerer information med denne. En <strong>webserver</strong> kommunikerer med en web-klient, bedre kendt som en browser. En <strong>FTP-server</strong> kommunikerer med en FTP-klient, fx et FTP-program eller dreamweaver. En <strong>printserver</strong> kommunikerer med en printklient.</p>        
+        
+        <h3>Website</h3>
+            <p>Et website er placeret på en server. Serveren selv kan være placeret i et datacenter, på sit skrivebord eller noget helt andet. Web-serveren leverer HTML, CSS, JavaScript og billeder til browseren og har en IP-adresse. Denne IP-adresse kan have et domæne, såsom www.minside.dk, som man vil kunne bruge i browseren.</p>
+        
+            </section>
+    </section>
+    
+<!-- Versionsstyring -->
+    <section>
+        <section>
+        <h2><a id="Versionsstyring"></a>Versionsstying</h2>
+        <p>Versionsstyring går ud på at gemme sin gode på en sikker og pålidelig måde. En sikker måde kan være at have kontrol over navngivning af filer, overblik over mapper eller forklarende noter af opdateringer. Når man koder kan enten sidde og gemme i den samme fil, eller gemme i en million filer. At gemme i den samme fil gør det umuligt at gå tilbage hvis der sker fejl, imens en masse forskellige filer hurtigt bliver uoverskueligt at have overblik over. Et redskab i versionsstrying vil gøre det muligt at undgå fejl, have kontrol over flere delprojekter og versioner og især samarbejde med andre om samme projekt. </p>
+        </section>
+                    
+        <section>
+        <h3>Github</h3>
+        <p>GitHub er en webplatform, hvor det er muligt at oprette Git-repositories lagret i skyen. På Githubs egen hjemmeside kan man se projekter og koder, sat op i versionsstyring. Github kommer med en lang række begreber:
+        <br><br><strong>Repository</strong> - Repo, samlingen af filer, en projektmappe
+        <br><br><strong>Branch</strong> - En gren, en parallel version i et repo, men berører ikke master
+        <br><br><strong>Master Branch</strong> - Hovedforløbet, den gældende kode
+        <br><br><strong>Commit</strong> - En revision, som at gemme
+        <br><br><strong>Pull Request</strong> - Rettelser, et forslag til en ny udgave
+        <br><br><strong>Diff</strong> – Difference, en forskel mellem to commits
+        <br><br><strong>Merge</strong> - Når ændringer i en branch samles med en anden
+        <br><br><strong>Pull</strong> – Når en ændring hentes og bliver merged</p>
+        
+            <img src="githubeksempel.png" class="img" width="70%">
+            
+        </section>
+    </section>
+        
+<!-- Internettes historie -->
+    <section>
+        <section>
+        <h2><a id="Internettet">Internettes historie</a></h2>
+        <p>Hovedsageligt er internettet et netværk af servere og computere. For at computerne og serverne kunne kommunikere data til hinanden opfandt man et regelsæt, som skulle være standarden for hvordan computerne skulle tale sammen. Dette regelsæt kaldes også for en protokol eller rettere Transmission Control Protocol (TCP). Herfra kunne forskellige computere forbindes.</p>
+        </section>
+        
+             <section class="quote">
+                <p>"The Web does not just connect machines, it connects people."</p>
+                <p class="author">- Tim Berners-Lee</p>
             </section>
         
-    <!-- Kode for citater -->
-        <section class="quote">
-            <p>"Her står en citat"</p>
-            <p class="author">- Her står forfatteren</p>
+        <section>    
+        <h3>World Wide Web</h3>
+        <p>World Wide Web (eller WWW som vi kender det) blev opfundet af Tim Berners-Lee i 1989, da han arbejdede på CERN i Schweiz. Her ville Berners-Lee opdage en måde at dele data på, ved at linke Hypertext dokumenter mellem hinanden, ved hjælp af internettet.
+        <br><br>Hele idéen med World Wide Web var at skabe en vidensdatabase eller lexicon, hvor alle interesser eller associationer kunne finde sted. Det var drømmen om de store og brede servere – søgemaskiner og websites. World Wide Web åbnede internettet op for verdenen og ikke længere udelukkende for forskere. Derfra kunne alle nu lettere kommunikere og dele informationer med hinanden.</p>
+        
+        <img src="timberner.png" class="img" width="80%">  
+        </section>
+   </section>        
+        
+        
+<!-- Kilder -->        
+        <section>
+        <h2><a id="Kilder">Kilder</a></h2>
+            <p>&bull; Internettes historie + serverbegrebet - Niels Østergaard
+<br>&bull; Introduktion til CSS - Niels Østergaard
+<br>&bull; Introduktion til HTML - Niels Østergaard
+<br>&bull; Introduktion til Serverside Scripting - Niels Østergaard
+<br>&bull; Responsive Design + CSS Grid - Niels Østergaard
+<br>&bull; Seo.dk, Hvad er SEO - https://www.seo.dk/hvad-er-seo/#hvad-betyder-seo
+<br>&bull; Stofa, 30 år med internet - https://stofa.dk/erhverv/blog/30-aar-med-internet
+<br>&bull; Versionsstyring - Niels Østergaard
+<br>&bull; W3schools
+<br>&bull; World Wide Web foundation, Tim Berners-Lee - https://webfoundation.org/about/community/knight-2008-tbl-speech/</p>
+        
+        
+        
+        
+        
         </section>
         
-        <section> 
-            <p>Det her er bare for eksempel skyld. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </section>
         
-    <!-- Kode for reflektion -->
-        <section class="reflection">
+        
+<!-- Reflektion -->
+        <section class="reflection" id="Reflektion">
             <h4>Reflektion</h4>
-            <p>Her er mine tanker om emnet</p>
+            <p>Inden jeg begyndte på uddannelsen, havde webudvikling været den del, som havde tiltalt mig mest. Med en lille bitte baggrund inden for HTML og CSS havde jeg forventninger om at det var noget jeg ville juble over – og jeg må sige at mine forventninger ikke har været forgæves. 
+            <br>Teorien og det praktiske i at kode og forstå en hjemmeside har jeg fundet sjovt, men især også vanskeligt. Dog vanskeligt på en god måde. Jeg har på intet tidspunkt i semesteret følt et overlegent overskud, men hellere konstant følt mig udfordret på en eller anden front med webudvikling. Jeg har klart fundet nogle svagere sider sammen med de stærkere. Jeg føler mig godt klædt på for mere nysgerrighed om HTML og CSS, imens de lidt mere tekniske server-begreber, ikke nær så let har fundet sig en plads inde på min personlige harddisk. Men det er ikke nok til at slå mig ud!</p>
         </section>
-        
-    
         
         </section>
     <footer>
@@ -90,6 +344,10 @@
             </section>
         </footer>
     
+
+
+
+
 <!-- Her begynder koden for "Scroll til top"-knappen  -->
     <button onclick="topFunction()" id="myBtn" title="Gå til toppen">Top</button>
     

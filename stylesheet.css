@@ -8,11 +8,9 @@ html {
 
 body { /* bodyen har et billede som baggrund */
     background-color: white;
-    background-size: cover;
+    background-size: 50%;
     margin: 0%;
     padding: 0%;
-    align-content: center;
-    overflow-x: hidden;
     
 
 }
@@ -67,20 +65,27 @@ p {
     
     font-family: 'Roboto';
     padding-left: 5%;
-    padding-right: 0%;
+    padding-right: 5%;
     margin-right: 5%;
-    line-height: 0.9em;
     font-size: 1em;
     line-height: 1.5em;
 }
 
-#forsideimg {
+.img {
     
-    height: 65em;
-    margin-bottom: 0%;
+    float:center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
 }
 
 ul {
+    
+    line-height: 2.5em;
+}
+
+.anchor {
     
     color: #1DACBC;
     font-family: 'Roboto';
@@ -99,11 +104,18 @@ a:hover {
     text-decoration: underline;
 }
 
+.anchor a:visited {
+    
+    text-decoration: none;
+    color: #1DACBC;
+    
+}
+
 
 .quote { /* citaten får speciel styling med en boks, for at den skiller sig ud */
     
-    background-color: #191919;
-    color: white;
+    background-color: white;
+    color: #1DACBC;
     width: 70%;
     height: auto;
     text-align: center;
@@ -113,7 +125,6 @@ a:hover {
     padding: 0.5%;
     font-size: 1.2em;
     font-family: 'Roboto';
-    box-shadow: 5px 10px #363636;
     margin-top: 1%;
     margin-bottom: 5%;
     
@@ -122,8 +133,9 @@ a:hover {
 .author { /* forfatteren af citaten skal stå anderledes og får en anden skrifttype */
     
     font-family: 'Beth Ellen';
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: right;
+    color: black;
     
 }
 
@@ -268,7 +280,8 @@ nav li a:hover {
     
     body { /* bodyen har et billede som baggrund */
     background-image: url(backdrop.jpg);
-    background-size: cover;
+    background-size: 100% auto;
+    background-repeat:repeat repeat;
     margin: 0;
     padding: 0;
     overflow-x: hidden;  
@@ -285,17 +298,16 @@ nav li a:hover {
     font-family: 'Roboto';
     margin: 5%;
     padding-left: 1%;
-    padding-right: 10%;
-    line-height: 1.5em;
+    padding-right: 1%;
+    line-height: 1.7em;
     font-size: 1em;
 }
     
     
     
     .quote { 
-    
-    background-color: #191919;
-    color: white;
+    background-color: white;
+    color: #1DACBC;
     width: 50%;
     height: auto;
     text-align: center;
@@ -303,9 +315,8 @@ nav li a:hover {
     float: center;
     font-style: italic;
     padding: 0.5%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: 'Roboto';
-    box-shadow: 5px 10px #363636;
     margin-top: 1%;
     argin-bottom: 1%;
     
@@ -314,7 +325,7 @@ nav li a:hover {
 .author { 
     
     font-family: 'Beth Ellen';
-    font-size: 0.8em;
+    font-size: 1.em;
     text-align: right;
     
 }
@@ -363,6 +374,15 @@ nav li a:hover {
     display: inline-block;
         
     }
+    
+.img {
+    
+    float:center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}    
     
 #footer {
         
