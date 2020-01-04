@@ -51,7 +51,7 @@ h3 { /* Undertitel */
     font-size: 1.1em;
 }
 
-h4 { /* Reflektion overskrift */
+h4 { /* Reflektionens overskrift */
     
     font-family: 'Roboto', black;
     padding-left: 5%;
@@ -80,6 +80,15 @@ p {
     margin-right: auto;
     padding: 5%;
 }
+
+iframe { /* Videoen på Kommunikation */
+        
+        display: block;
+        float: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
 
 ul {
     
@@ -113,7 +122,7 @@ a:hover {
 }
 
 
-.quote { /* citaten får speciel styling med en boks, for at den skiller sig ud */
+.quote { /* citater får anderledes style for at skille sig ud */
     
     background-color: white;
     color: #1DACBC;
@@ -140,7 +149,7 @@ a:hover {
     
 }
 
-.reflection { /* styling af relektions delen */
+.reflection { /* styling af reflektionsboksen */
     
     background-color: #1DACBC;
     color: white;
@@ -351,10 +360,10 @@ nav li a:hover {
 
     nav ul {
         
-    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    overflow: hidden;
     background-color: transparent; 
     display: block;
     width: 100%;
@@ -363,7 +372,7 @@ nav li a:hover {
 
     nav li {
         
-    float: left; /* hvert element skal flyde til venstre */
+    float: left;
     text-align: center;
     width: 100%;
     width: calc(100% / 7);
@@ -384,6 +393,15 @@ nav li a:hover {
     margin-right: auto;
     padding: 5%;
 }    
+    
+    iframe {
+        
+        display: block;
+        float: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
     
 #footer {
         
