@@ -54,10 +54,13 @@ h3 { /* Undertitel */
 h4 { /* Reflektionens overskrift */
     
     font-family: 'Roboto', black;
-    padding-left: 5%;
+    padding: 3.5%;
     font-size: 1.5em;
     text-align: center;
     letter-spacing: 0.2em;
+    display: block;
+    margin: auto;
+    float: center;
 
 }
 
@@ -156,13 +159,12 @@ a:hover {
     width: 80%;
     height: auto;
     text-align: left;
-    margin-left: 10%;
     float: center;
     padding: 0.5%;
     font-family: 'Roboto';
     box-shadow: 5px 10px #1f7079;
-    margin-top: 1%;
-    margin-bottom: 5%;
+    display: blocK;
+    margin: auto;
     
 }
 
@@ -347,13 +349,12 @@ nav li a:hover {
     width: 75%;
     height: auto;
     text-align: left;
-    margin-left: 10%;
     float: center;
     padding: 0.5%;
     font-family: 'Roboto';
     box-shadow: 5px 10px #1f7079;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    display: block;
+    margin: auto;
     
     
     }
@@ -396,11 +397,11 @@ nav li a:hover {
     
     iframe {
         
-        display: block;
-        float: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     }
     
 #footer {
